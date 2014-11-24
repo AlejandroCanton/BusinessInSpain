@@ -1,0 +1,107 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="aar.businessinspain.MenuInicio"
+    android:background="#33703fb9">
+
+
+    <LinearLayout
+        android:id="@+id/barraEspaña"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:background="#fff3c428"
+        android:layout_marginBottom="10dp"
+        android:weightSum="1"
+        android:padding="20dp">
+
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:text="España"
+            style="@style/titulos"
+            android:id="@+id/textViewSpain"
+            android:gravity="center_vertical" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#ff344495"
+        android:padding="20dp"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            style="@style/titulos"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:text="Francia"
+            android:id="@+id/textView2"
+            android:gravity="center_vertical" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#ff419548"
+        android:layout_marginBottom="10dp"
+        android:padding="20dp">
+
+
+        <TextView
+            style="@style/titulos"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:text="Brasil"
+            android:id="@+id/textView3"
+            android:gravity="center_vertical" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#ffc91f27"
+        android:layout_marginBottom="10dp"
+        android:padding="20dp">
+
+        <TextView
+            style="@style/titulos"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:text="E. U."
+            android:id="@+id/textView4"
+            android:gravity="center_vertical" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#ff000000"
+        android:padding="20dp">
+
+        <TextView
+            style="@style/titulos"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:text="Alemania"
+            android:id="@+id/textView5"
+            android:gravity="center_vertical" />
+    </LinearLayout>
+
+
+</LinearLayout>
