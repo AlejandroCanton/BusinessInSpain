@@ -49,6 +49,12 @@
             android:text="Francia"
             android:id="@+id/textView2"
             android:gravity="center_vertical" />
+
+            <!--
+            awebo sfdkdskjfhsdf
+
+            -->
+
     </LinearLayout>
 
     <LinearLayout
