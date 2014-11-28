@@ -19,71 +19,81 @@ public class Details extends Activity {
         Intent intent = getIntent();
         int mes = intent.getIntExtra("Data", MenuProtocolo.mes);
 
+        System.out.println("Llego   " + mes);
 
-        if ( mes == findViewById(R.id.imageViewModelo).getId() )
+
+        int rec = (R.id.imageViewModelo);
+
+
+        System.out.println("Comparar con   " + rec);
+
+
+        if ( mes == (R.id.imageViewModelo) )
         {
             ((TextView)findViewById(R.id.textViewTitle)).setText("Modelo");
+            ((TextView)findViewById(R.id.textViewDescripcion)).setText(getText(R.string.modelo_comunicacion_info)) ;
         }
-        else if ( mes == findViewById(R.id.imageViewVestimenta).getId() )
+        else if ( mes == (R.id.imageViewVestimenta) )
         {
             ((TextView)findViewById(R.id.textViewTitle)).setText("Vestimenta");
         }
-        else if ( mes == findViewById(R.id.imageViewAgenda).getId() )
+        else if ( mes == (R.id.imageViewAgenda) )
         {
             ((TextView)findViewById(R.id.textViewTitle)).setText("Agenda");
         }
-        else if ( mes == findViewById(R.id.imageViewAspectos).getId() )
+        else if ( mes == (R.id.imageViewAspectos) )
         {
             ((TextView)findViewById(R.id.textViewTitle)).setText("Aspectos");
         }
-        else if ( mes == findViewById(R.id.imageViewAlimentos).getId() )
+        else if ( mes == (R.id.imageViewAlimentos) )
         {
             ((TextView)findViewById(R.id.textViewTitle)).setText("Alimentos");
         }
-        else if ( mes == findViewById(R.id.imageViewRecomendaciones).getId() )
+        else if ( mes == (R.id.imageViewRecomendaciones) )
         {
             ((TextView)findViewById(R.id.textViewTitle)).setText("Recomendaciones");
         }
-        else if ( mes == findViewById(R.id.imageViewInternet).getId() )
+        else if ( mes == (R.id.imageViewInternet) )
         {
             ((TextView)findViewById(R.id.textViewTitle)).setText("Internet");
         }
-        else if ( mes == findViewById(R.id.imageViewInteres).getId() )
+        else if ( mes == (R.id.imageViewInteres) )
         {
             ((TextView)findViewById(R.id.textViewTitle)).setText("Interes");
         }
-        else if ( mes == findViewById(R.id.imageViewAerolineas).getId() )
+        else if ( mes == (R.id.imageViewAerolineas) )
         {
             ((TextView)findViewById(R.id.textViewTitle)).setText("Aerolineas");
         }
-        else if ( mes == findViewById(R.id.imageViewSalud).getId() )
+        else if ( mes == (R.id.imageViewSalud) )
         {
             ((TextView)findViewById(R.id.textViewTitle)).setText("Salud");
         }
-        else if ( mes == findViewById(R.id.imageViewClima).getId() )
+        else if ( mes == (R.id.imageViewClima) )
         {
             ((TextView)findViewById(R.id.textViewTitle)).setText("Clima");
         }
-        else if ( mes == findViewById(R.id.imageViewVisa).getId() )
+        else if ( mes == (R.id.imageViewVisa) )
         {
             ((TextView)findViewById(R.id.textViewTitle)).setText("Visa");
         }
-        else if ( mes == findViewById(R.id.imageViewAranceles).getId() )
+        else if ( mes == (R.id.imageViewAranceles) )
         {
             ((TextView)findViewById(R.id.textViewTitle)).setText("Aranceles");
         }
-        else if ( mes == findViewById(R.id.imageViewEmbajada).getId() )
+        else if ( mes == (R.id.imageViewEmbajada) )
         {
             ((TextView)findViewById(R.id.textViewTitle)).setText("Embajada");
         }
-        else if ( mes == findViewById(R.id.imageViewConsulados).getId() )
+        else if ( mes == (R.id.imageViewConsulados) )
         {
             ((TextView)findViewById(R.id.textViewTitle)).setText("Consulados");
         }
-        else if ( mes == findViewById(R.id.imageViewTelefonos).getId() )
+        else if ( mes == (R.id.imageViewTelefonos) )
         {
             ((TextView)findViewById(R.id.textViewTitle)).setText("Telefonos");
         }
+
 
     }
 

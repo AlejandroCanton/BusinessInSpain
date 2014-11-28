@@ -14,9 +14,10 @@
     <string name="title_activity_menu_emergencias">MenuEmergencias</string>
 
 
-    <string name="modelo_comunicacion_info"><b>Dentro del modelo de comunicacion debemos conciderar:
+    <string name="modelo_comunicacion_info"><b>Dentro del modelo de comunicacion debemos conciderar: \n\n
     </b>Ambas partes deben exponer sus posturas. El ceder, es muy importante pues crear tensión por
     algún argumento puede ser altamente prejudicial<b> La formalidad no es rigurosa mas no omitible.</b></string>
+
     <string name="modelo_comunicacion">Modelo de comunicacion</string>
     <string name="aspectos_generales_info"><b>Detalles importantes para realizar una negociación exitosa
     </b>La puntualidad es clave. Es estricto hablar en el idioma local<b> Hay que tener en cuenta que las cenas
