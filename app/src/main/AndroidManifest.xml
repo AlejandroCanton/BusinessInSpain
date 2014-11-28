@@ -21,6 +21,42 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="aar.businessinspain.Main" />
         </activity>
+        <activity
+            android:name="aar.businessinspain.MenuSpain"
+            android:label="@string/title_activity_menu_spain"
+            android:parentActivityName="aar.businessinspain.MenuInicio" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="aar.businessinspain.MenuInicio" />
+        </activity>
+        <activity
+            android:name="aar.businessinspain.MenuInfo"
+            android:label="@string/title_activity_menu_info"
+            android:parentActivityName="aar.businessinspain.MenuSpain" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="aar.businessinspain.MenuSpain" />
+        </activity>
+        <activity
+            android:name="aar.businessinspain.MenuProtocolo"
+            android:label="@string/title_activity_menu_protocolo"
+            android:parentActivityName="aar.businessinspain.MenuSpain" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="aar.businessinspain.MenuSpain" />
+        </activity>
+        <activity
+            android:name="aar.businessinspain.Details"
+            android:label="@string/title_activity_details" >
+        </activity>
+        <activity
+            android:name="aar.businessinspain.MenuEmergencias"
+            android:label="@string/title_activity_menu_emergencias"
+            android:parentActivityName="aar.businessinspain.MenuSpain" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="aar.businessinspain.MenuSpain" />
+        </activity>
     </application>
 
 </manifest>

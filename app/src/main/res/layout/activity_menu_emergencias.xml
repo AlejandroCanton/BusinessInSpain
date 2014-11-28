@@ -1,0 +1,133 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="aar.businessinspain.MenuSpain"
+    >
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:background="#fff3c428"
+        android:layout_marginBottom="10dp"
+        android:weightSum="1"
+        android:padding="20dp"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            style="@style/titulos"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:text="Emergencias"
+            android:id="@+id/textView"
+            android:gravity="center_vertical" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="#ffffffff"
+        android:padding="5dp"
+        android:layout_marginTop="25dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="#ffffffff"
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/imageViewEmbajada"
+                android:src="@drawable/embajada"
+                android:layout_weight="0.12"
+                android:layout_gravity="center_horizontal"
+                android:onClick="advanceToEmbajada"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Embajada"
+                android:id="@+id/textView16"
+                android:layout_weight="0.12"
+                android:layout_gravity="center_horizontal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="#ffffffff"
+            android:layout_weight="1" >
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/imageViewConsulados"
+                android:src="@drawable/consulados"
+                android:layout_weight="0.12"
+                android:layout_gravity="center_horizontal"
+                android:onClick="advanceToConsulados"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Consulados"
+                android:id="@+id/textView17"
+                android:layout_weight="0.12"
+                android:layout_gravity="center_horizontal" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="#ffffffff"
+        android:layout_gravity="center_horizontal"
+        android:padding="5dp" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="#ffffffff"
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/imageViewTelefonos"
+                android:src="@drawable/telefonos"
+                android:layout_weight="0.12"
+                android:layout_gravity="center_horizontal"
+                android:onClick="advanceToTelefonos"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Teléfonos de Emergencia"
+                android:id="@+id/textView12"
+                android:layout_weight="0.12"
+                android:layout_gravity="center_horizontal" />
+        </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>

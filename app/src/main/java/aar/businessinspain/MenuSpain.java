@@ -8,19 +8,19 @@ import android.view.MenuItem;
 import android.view.View;
 
 
-public class MenuInicio extends Activity {
+public class MenuSpain extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_menu_inicio);
+        setContentView(R.layout.activity_menu_spain);
     }
 
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_menu_inicio, menu);
+        getMenuInflater().inflate(R.menu.menu_menu_spain, menu);
         return true;
     }
 
@@ -39,11 +39,21 @@ public class MenuInicio extends Activity {
         return super.onOptionsItemSelected(item);
     }
 
-    public void advanceToList(View view) {
+    public void advanceToInfo(View view) {
 
+        Intent intent = new Intent(this, MenuInfo.class);
+        startActivity(intent);
+    }
 
-            Intent intent = new Intent(this,MenuSpain.class);
-            startActivity(intent);
+    public void advanceToProtocolo(View view) {
 
+        Intent intent = new Intent(this, MenuProtocolo.class);
+        startActivity(intent);
+
+    }
+
+    public void advanceToEmergencias(View view) {
+        Intent intent = new Intent(this, MenuEmergencias.class);
+        startActivity(intent);
     }
 }

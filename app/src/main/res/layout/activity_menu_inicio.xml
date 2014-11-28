@@ -23,13 +23,23 @@
         android:padding="20dp">
 
 
+
+
         <TextView
-            android:layout_width="fill_parent"
+            android:layout_width="240dp"
             android:layout_height="match_parent"
             android:text="España"
             style="@style/titulos"
             android:id="@+id/textViewSpain"
-            android:gravity="center_vertical" />
+            android:gravity="center_vertical"
+            android:onClick="advanceToList"
+            />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="fill_parent"
+            android:src="@drawable/flagsp"
+            />
 
 
     </LinearLayout>
@@ -44,15 +54,19 @@
 
         <TextView
             style="@style/titulos"
-            android:layout_width="fill_parent"
+            android:layout_width="240dp"
             android:layout_height="match_parent"
             android:text="Francia"
             android:id="@+id/textView2"
             android:gravity="center_vertical" />
 
-            <!--
-            awebo sfdkdskjfhsdasfdd
-            -->
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="fill_parent"
+            android:src="@drawable/flagfr"
+            />
+
+
 
     </LinearLayout>
 
@@ -67,11 +81,19 @@
 
         <TextView
             style="@style/titulos"
-            android:layout_width="fill_parent"
+            android:layout_width="240dp"
             android:layout_height="match_parent"
             android:text="Brasil"
             android:id="@+id/textView3"
             android:gravity="center_vertical" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="fill_parent"
+            android:src="@drawable/flagbr"
+            />
+
+
     </LinearLayout>
 
     <LinearLayout
@@ -85,11 +107,19 @@
 
         <TextView
             style="@style/titulos"
-            android:layout_width="match_parent"
+            android:layout_width="240dp"
             android:layout_height="fill_parent"
             android:text="E. U."
             android:id="@+id/textView4"
             android:gravity="center_vertical" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="fill_parent"
+            android:src="@drawable/flageu"
+            />
+
+
     </LinearLayout>
 
     <LinearLayout
@@ -101,11 +131,19 @@
 
         <TextView
             style="@style/titulos"
-            android:layout_width="fill_parent"
+            android:layout_width="240dp"
             android:layout_height="match_parent"
             android:text="Alemania"
             android:id="@+id/textView5"
             android:gravity="center_vertical" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="fill_parent"
+            android:src="@drawable/flaggr"
+            />
+
+
     </LinearLayout>
 
 
