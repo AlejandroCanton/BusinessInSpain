@@ -5,7 +5,7 @@
     android:background="#ffdb6424">
 
     <ImageView
-        android:layout_width="match_parent"
+        android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:id="@+id/imgInicio"
         android:src="@drawable/principal"
@@ -17,7 +17,8 @@
         android:layout_alignParentRight="false"
         android:layout_alignParentEnd="false"
         android:layout_alignWithParentIfMissing="false"
-        android:layout_alignParentLeft="true" />
+        android:layout_alignParentLeft="true"
+        android:scaleType="fitXY" />
 
 
 </RelativeLayout>

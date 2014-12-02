@@ -21,11 +21,19 @@
 
         <TextView
             style="@style/titulos"
-            android:layout_width="fill_parent"
+            android:layout_width="240dp"
             android:layout_height="match_parent"
             android:text="España"
             android:id="@+id/textView"
             android:gravity="center_vertical" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="fill_parent"
+            android:src="@drawable/flagsp"
+            android:onClick="advanceToList"
+            />
+
     </LinearLayout>
 
     <LinearLayout
@@ -52,6 +60,7 @@
                 android:src="@drawable/informacion"
                 android:layout_weight="0.06"
                 android:layout_gravity="center_horizontal"
+                android:onClick="advanceToGeneral"
                 />
 
             <TextView

@@ -17,4 +17,14 @@
 
     </style>
 
+
+    <style name="titulos2" parent="@style/AppTheme">
+
+        <item name="android:fontFamily">roboto</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ffffff</item>
+
+    </style>
+
 </resources>

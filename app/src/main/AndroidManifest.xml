@@ -5,17 +5,21 @@
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
-        android:theme="@style/AppTheme" >
-        <activity android:name="aar.businessinspain.Main" >
+        android:theme="@style/AppTheme"
+        android:label="@string/app_name">
+
+        <activity android:name="aar.businessinspain.Main"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity
             android:name="aar.businessinspain.MenuInicio"
             android:label="@string/title_activity_menu_inicio"
+            android:screenOrientation="portrait"
             android:parentActivityName="aar.businessinspain.Main" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -24,6 +28,7 @@
         <activity
             android:name="aar.businessinspain.MenuSpain"
             android:label="@string/title_activity_menu_spain"
+            android:screenOrientation="portrait"
             android:parentActivityName="aar.businessinspain.MenuInicio" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -32,6 +37,7 @@
         <activity
             android:name="aar.businessinspain.MenuInfo"
             android:label="@string/title_activity_menu_info"
+            android:screenOrientation="portrait"
             android:parentActivityName="aar.businessinspain.MenuSpain" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -40,6 +46,7 @@
         <activity
             android:name="aar.businessinspain.MenuProtocolo"
             android:label="@string/title_activity_menu_protocolo"
+            android:screenOrientation="portrait"
             android:parentActivityName="aar.businessinspain.MenuSpain" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -52,6 +59,16 @@
         <activity
             android:name="aar.businessinspain.MenuEmergencias"
             android:label="@string/title_activity_menu_emergencias"
+            android:screenOrientation="portrait"
+            android:parentActivityName="aar.businessinspain.MenuSpain" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="aar.businessinspain.MenuSpain" />
+        </activity>
+        <activity
+            android:name="aar.businessinspain.MenuGeneral"
+            android:label="@string/title_activity_menu_general"
+            android:screenOrientation="portrait"
             android:parentActivityName="aar.businessinspain.MenuSpain" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"

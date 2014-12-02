@@ -1,0 +1,196 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="aar.businessinspain.MenuSpain"
+    >
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:background="#fff3c428"
+        android:weightSum="1"
+        android:padding="20dp"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            style="@style/titulos"
+            android:layout_width="240dp"
+            android:layout_height="match_parent"
+            android:text="España"
+            android:id="@+id/textView"
+            android:gravity="center_vertical"
+            />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="fill_parent"
+            android:src="@drawable/flagsp"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:text="Información General"
+        android:gravity="center_vertical|center_horizontal"
+        android:background="#fff3c428"
+        android:textColor="#ffffffff"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center_horizontal"
+        android:background="#fff3c428"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="#ffffffff"
+            android:paddingLeft="10dp">
+
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:text="Nombre Completo"
+                android:gravity="center_vertical"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:text="Capital"
+                android:gravity="center_vertical"
+                android:textSize="18sp" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:text="Idioma"
+                android:gravity="center_vertical"
+                android:textSize="18sp" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:text="Moneda"
+                android:gravity="center_vertical"
+                android:textSize="18sp" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:text="Zona Horaria"
+                android:gravity="center_vertical"
+                android:textSize="18sp" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:text="Gobierno"
+                android:gravity="center_vertical"
+                android:textSize="18sp" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:text="Presidente"
+                android:gravity="center_vertical"
+                android:textSize="18sp" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:text="Rey"
+                android:gravity="center_vertical"
+                android:textSize="18sp" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:text="Religion"
+                android:gravity="center_vertical"
+                android:textSize="18sp" />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#ffffffff"
+            android:paddingLeft="10dp">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:text="Reino de España"
+                android:gravity="center_vertical"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:text="Madrid"
+                android:gravity="center_vertical"
+                android:textSize="18sp" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:text="Español"
+                android:gravity="center_vertical"
+                android:textSize="18sp" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:text="Euro"
+                android:gravity="center_vertical"
+                android:textSize="18sp" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:text="UTC +1"
+                android:gravity="center_vertical"
+                android:textSize="18sp" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:text="Monarquía Parlamentaria"
+                android:gravity="center_vertical"
+                android:textSize="18sp" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:text="Mariano Rajoy"
+                android:gravity="center_vertical"
+                android:textSize="18sp" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:text="Felipe VI"
+                android:gravity="center_vertical"
+                android:textSize="18sp" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:text="Catolicismo"
+                android:gravity="center_vertical"
+                android:textSize="18sp" />
+
+            </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -21,7 +21,8 @@
         android:layout_marginBottom="10dp"
         android:weightSum="1"
         android:padding="20dp"
-        android:layout_marginTop="15dp">
+        android:layout_marginTop="15dp"
+        android:onClick="advanceToList">
 
 
 
@@ -40,6 +41,7 @@
             android:layout_width="100dp"
             android:layout_height="fill_parent"
             android:src="@drawable/flagsp"
+            android:onClick="advanceToList"
             />
 
 
