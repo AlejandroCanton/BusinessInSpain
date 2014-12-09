@@ -68,61 +68,61 @@ public class Details extends Activity {
         {
             ((TextView)findViewById(R.id.textViewTitle)).setText("Telefonía e Internet");
             ((ImageView) findViewById(R.id.imageViewIcon)).setImageResource(R.drawable.internet);
-            ((TextView)findViewById(R.id.textViewDescripcion)).setText(getText(R.string.modelo_comunicacion_info)) ;
+            ((TextView)findViewById(R.id.textViewDescripcion)).setText(getText(R.string.telefonia_internet_info)) ;
         }
         else if ( mes == (R.id.imageViewInteres) )
         {
             ((TextView)findViewById(R.id.textViewTitle)).setText("Lugares de Interés");
             ((ImageView) findViewById(R.id.imageViewIcon)).setImageResource(R.drawable.interes);
-            ((TextView)findViewById(R.id.textViewDescripcion)).setText(getText(R.string.modelo_comunicacion_info)) ;
+            ((TextView)findViewById(R.id.textViewDescripcion)).setText(getText(R.string.interes_info)) ;
         }
         else if ( mes == (R.id.imageViewAerolineas) )
         {
             ((TextView)findViewById(R.id.textViewTitle)).setText("Aerolíneas");
             ((ImageView) findViewById(R.id.imageViewIcon)).setImageResource(R.drawable.aerolineas);
-            ((TextView)findViewById(R.id.textViewDescripcion)).setText(getText(R.string.modelo_comunicacion_info)) ;
+            ((TextView)findViewById(R.id.textViewDescripcion)).setText(getText(R.string.aerolineas_info)) ;
         }
         else if ( mes == (R.id.imageViewSalud) )
         {
             ((TextView)findViewById(R.id.textViewTitle)).setText("Salud");
             ((ImageView) findViewById(R.id.imageViewIcon)).setImageResource(R.drawable.salud);
-            ((TextView)findViewById(R.id.textViewDescripcion)).setText(getText(R.string.modelo_comunicacion_info)) ;
+            ((TextView)findViewById(R.id.textViewDescripcion)).setText(getText(R.string.salud_info)) ;
         }
         else if ( mes == (R.id.imageViewClima) )
         {
             ((TextView)findViewById(R.id.textViewTitle)).setText("Clima");
             ((ImageView) findViewById(R.id.imageViewIcon)).setImageResource(R.drawable.clima);
-            ((TextView)findViewById(R.id.textViewDescripcion)).setText(getText(R.string.modelo_comunicacion_info)) ;
+            ((TextView)findViewById(R.id.textViewDescripcion)).setText(getText(R.string.clima_info)) ;
         }
         else if ( mes == (R.id.imageViewVisa) )
         {
             ((TextView)findViewById(R.id.textViewTitle)).setText("Visa y Pasaporte");
             ((ImageView) findViewById(R.id.imageViewIcon)).setImageResource(R.drawable.visa);
-            ((TextView)findViewById(R.id.textViewDescripcion)).setText(getText(R.string.modelo_comunicacion_info)) ;
+            ((TextView)findViewById(R.id.textViewDescripcion)).setText(getText(R.string.visa_info)) ;
         }
         else if ( mes == (R.id.imageViewAranceles) )
         {
             ((TextView)findViewById(R.id.textViewTitle)).setText("Trámites Arancelarios");
             ((ImageView) findViewById(R.id.imageViewIcon)).setImageResource(R.drawable.aranceles);
-            ((TextView)findViewById(R.id.textViewDescripcion)).setText(getText(R.string.modelo_comunicacion_info)) ;
+            ((TextView)findViewById(R.id.textViewDescripcion)).setText(getText(R.string.aranceles_info)) ;
         }
         else if ( mes == (R.id.imageViewEmbajada) )
         {
             ((TextView)findViewById(R.id.textViewTitle)).setText("Embajada");
             ((ImageView) findViewById(R.id.imageViewIcon)).setImageResource(R.drawable.embajada);
-            ((TextView)findViewById(R.id.textViewDescripcion)).setText(getText(R.string.modelo_comunicacion_info)) ;
+            ((TextView)findViewById(R.id.textViewDescripcion)).setText(getText(R.string.embajadas_info)) ;
         }
         else if ( mes == (R.id.imageViewConsulados) )
         {
             ((TextView)findViewById(R.id.textViewTitle)).setText("Consulados");
             ((ImageView) findViewById(R.id.imageViewIcon)).setImageResource(R.drawable.consulados);
-            ((TextView)findViewById(R.id.textViewDescripcion)).setText(getText(R.string.modelo_comunicacion_info)) ;
+            ((TextView)findViewById(R.id.textViewDescripcion)).setText(getText(R.string.consulado_info)) ;
         }
         else if ( mes == (R.id.imageViewTelefonos) )
         {
             ((TextView)findViewById(R.id.textViewTitle)).setText("Teléfonos de Emergencia");
             ((ImageView) findViewById(R.id.imageViewIcon)).setImageResource(R.drawable.telefonos);
-            ((TextView)findViewById(R.id.textViewDescripcion)).setText(getText(R.string.modelo_comunicacion_info)) ;
+            ((TextView)findViewById(R.id.textViewDescripcion)).setText(getText(R.string.telefonos_info)) ;
         }
 
 

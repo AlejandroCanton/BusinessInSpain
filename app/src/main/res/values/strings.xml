@@ -17,30 +17,101 @@
     <string name="modelo_comunicacion_info"><b>Dentro del modelo de comunicación debemos conciderar:\n\n\n</b>
     •Ambas partes deben exponer sus posturas\n •El ceder es muy importante, pues crear tensión por
     algún argumento puede ser altamente prejudicial\n •La formalidad no es rigurosa más no omitible.</string>
-    <string name="modelo_comunicacion">Modelo de comunicacion</string>
+    <string name="modelo_comunicacion">Modelo de comunicación</string>
     <string name="aspectos_generales_info"><b>Detalles importantes para realizar una negociación exitosa\n\n\n</b>
     •La puntualidad es clave\n •Es estricto hablar en el idioma local\n •Hay que tener en cuenta que las cenas
     y comidas sirven como recursos, pues unen lazos</string>
-    <string name="aspectos_generales">Modelo de comunicacion</string>
+    <string name="aspectos_generales">Modelo de comunicación</string>
     <string name="agenda">Agenda</string>
     <string name="agenda_info"><b>Días recomendados para hacer reuniones de negocios\n\n\n</b> •Reuniones de negocios dentro
     de la jornada laboral, lunes a viernes de 7:30 a 19:00hrs\n •Fuera del mismo no se recomienda.</string>
     <string name="horario_alimentos">Horario de Alimentos</string>
     <string name="horario_alimentos_info"><b>Es bastante común realizar negocios durante una comida</b> \n\n\n
     •Realizar la comida durante el almuerzo, entre 12 y 14hrs.</string>
-    <string name="codigo_vestimenta">Codigo de vestimenta</string>
-    <string name="codigo_vestimenta_info"><b>Recomendaciones generales para ir vestido de a cuerdo a la ocación\n\n\n
+    <string name="codigo_vestimenta">Código de vestimenta</string>
+    <string name="codigo_vestimenta_info"><b>Recomendaciones generales para ir vestido de acuerdo a la ocación\n\n\n
     Hombres</b>:\n
     •Vestimenta formal(Traje oscuro).\n\n  <b>Mujer</b>:\n •Vestimenta formal (Traje oscuro), poca joyerias.</string>
     <string name="recomendaciones">Recomendaciones</string>
     <string name="recomendaciones_info"><b>Aspectos a tomar en cuenta para las reuniones de negocios:\n\n\n</b>•Puede estar
     acompañado de otra persona, siempre y cuando permanezca a la mimsa empresa\n •No se acostumbra el contacto
-    visual por mucho tiempo\n •Los gestos corporales y el tono de voz son muy importantes.\n\n <b>Otros tips a tomar en cuenta:\n\n</b> •Evitar la continuacion en un contrato
-    despues de haberse finalizado, se puede malinterpretar.\n •Cualquier tipo de tema que pueda causar conflicto, debe
+    visual por mucho tiempo\n •Los gestos corporales y el tono de voz son muy importantes.\n\n <b>Otros tips a tomar en cuenta:\n\n</b> •Evitar la continuación en un contrato
+    después de haberse finalizado, se puede malinterpretar.\n •Cualquier tipo de tema que pueda causar conflicto, debe
     evitarse.</string>
     //antes de partir
     <string name="telefonia_internet">Telefonia e internet</string>
-    <string name="telefonia_internet_info"><b>Operadores:\n\n\n</b></string>
 
 
+
+    <string name="telefonia_internet_info"><b>Operadores:\n\n\n</b>•Telefonica\n•Orange\n•Vodafone\n•Ono\n•Jazztel</string>
+    <string name="clima_info"><b>Es muy variado, empezando (en promedio) alrededor de los 15°C y superando los 40°C (clima cálido).
+        Hay 4 climas principales:</b>\n\n\n•Atlántico (Norte, Noreste): Zona húmeda con abundancia en lluvias
+        \n•Mediterráneo: (Centro): Dependiendo de la zona, pueden haber lluvias escasas o nulas \n•Subtropical (Islas Canarias):
+        En algunas zonas hay precipitación abundante \n•Montaña: Inviernos muy fríos y veranos frescos</string>
+    <string name="visa_info"><b>Se podrá exigir la presentación de alguno de los siguientes documentos:</b>
+    \n\n\n1.  La invitación de una empresa o de una autoridad para participar en reuniones, convenciones, etc., de carácter comercial, industrial, etc.
+    \n2. Documento que acredite la existencia de relaciones comerciales, industriales, etc.
+    \n3. Tarjetas de acceso a ferias, congresos, convenciones, etc.
+    \n4. Invitaciones, tarjetas de entrada, reservas o programas con indicación, en la medida de lo posible, del nombre del organismo que invita y la duración de la estancia o cualquier otro documento que indique el propósito de la visita.
+    </string>
+    <string name="interes_info">•Mezquita-catedral de Córdoba \n•Museo del Prado Madrid \n•Basílica de la Sagrada Familia Barcelona \n•Parque Güell Barcelona</string>
+    <string name="aerolineas_info">•Binter Canarias \n•Air Europa \n•Vueling \n•Iberia</string>
+
+    <string name="embajadas_info"><b>Embajada de México en España</b>\n\n\nCarrera de San Jerónimo, 46 28014 Madrid, ESPAÑA
+\nTel. Centralita: (34) 91 369 28 14
+\nFax: (34) 91 420 22 92
+\nE-mail:
+\ncomunicacionesesp@sre.gob.mx
+\nEstaciones de METRO más próximas: Sevilla y/o Banco de España
+\nHorarios Embajada:de lunes a viernes de 9:00 a 15:00 horas y de 17:00 a 19:00 horas
+\nAtención al público Sección Consular: de lunes a viernes de 9:00 a 13:00 horas
+
+</string>
+
+    <string name="consulado_info"><b>Consulados de México en España</b>\n\n\n<b>Consulado General de México en Barcelona:</b>
+
+\n\nPaseo de la Bonanova, 55
+\n08017 Barcelona
+\nTeléfono (93) 2 01 18 22
+\nFax (93) 2 00 92 06
+\nE-mail: consulmex@consulmex-barcelona.net http://www.sre.gob.mx/barcelona
+
+  \n \n<b>Consulado Honorario de México en Bilbao:</b>
+
+\n\nC/Licenciado Poza 24, 6-A
+\n48011 Bilbao
+\nTel (94) 442 32 89
+\nFax (94) 4 41 64 05
+
+</string>
+
+
+    <string name="telefonos_info"><b>Todo tipo de emergencias – 112</b>
+\n\n\nPolicía – 091
+\nGuardia Civil – 062
+\nBomberos – 080 o 085
+\nEmergencias Médicas – 061
+\nInformar sobre accidentes o información sobre el clima y congestión de tráfico – 900 123 505
+\nCruz Roja Emergencias – 901 222 222
+\nInstituto nacional de toxicología – 91 562 04 20
+\nTeléfono Violencia de Género – 016 – 900 116 016
+\nInformación a la mujer – 900191010
+\nInformación a mujeres sordas – 900152152
+\nDirección General de Tráfico – 900 123 505
+\nTeléfono de atención ciudadana 060
+\nProtección Civil – 1006
+</string>
+    
+    <string name="salud_info"><b>Las presataciones sanitarias en España comprenden:</b>\n\n\n•Asistencia en caso de maternidad
+    \n•Asistencia de enfermedad común
+    \n•Accidentes de todo tipo (laboral o no)
+    \n•Recuperación Personal
+    \n•Prestaciones en caso de discapacidad, cáncer, invalidez o jubilación</string>
+
+    <string name="aranceles_info"><b>A la aduana se le debe remitir:</b>\n\n\n•Factura comercial o pro forma
+    \n•Manifiesto del medio de transporte por el que se carga la mercancía
+    \n•Documento único administrativo (DUA)
+    \n\n\n<b>Las limitaciones a la importación afectan a productos agrícolas, textiles, hierro, acero, armas y equipamiento de defensa.</b></string>
+    
+    
 </resources>
